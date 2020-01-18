@@ -1,0 +1,12 @@
+diff -up python3-lesscpy-0.9j-1.fc19/setup.py.bak python3-lesscpy-0.9j-1.fc19/setup.py
+--- python3-lesscpy-0.9j-1.fc19/setup.py.bak	2013-08-21 10:41:30.341289892 +0200
++++ python3-lesscpy-0.9j-1.fc19/setup.py	2013-08-21 10:42:25.308195797 +0200
+@@ -24,6 +24,6 @@ setup(
+                                 'lesscpy/test/css/issues/*.css',
+                                 'lesscpy/test/less/*.less',
+                                 'lesscpy/test/less/issues/*.less',]},
+-      license=open('LICENSE').read(),
+-      long_description=open('README.rst').read(),
++      license=open('LICENSE', encoding='utf-8').read(),
++      long_description=open('README.rst', encoding='utf-8').read(),
+ )
